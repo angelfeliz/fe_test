@@ -12,9 +12,10 @@ test('render header menu', () => {
     //To check if at least one item is present in the header menu
     let item = getByTestId(/item/i);
     expect(item).toHaveTextContent(/\w/);
-
+    expect(getByTestId('openMenu')).not.toBeNull();
+    
     let buttonMenu = getByTestId('buttonMenu');
-    fireEvent.click(buttonMenu);
-    console.log(container);
+   fireEvent.click(buttonMenu);
+   expect(getByTestId('closeMenu')).not.toBeNull();
 
 })

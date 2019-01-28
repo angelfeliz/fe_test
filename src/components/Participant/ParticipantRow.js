@@ -6,15 +6,16 @@ const ParticipantRow = (props) => {
     return (
         <React.Fragment>
             <div className='row'>
+                <div className="row__section-1">
                 <div className='row--number-position flex xs-fl-10 font--small'>
                     <span>{props.position}</span>
                 </div>
                 <div className='row__inner-row flex'>
-                    <div className='flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10'>
+                    <div className='flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo'>
                         <img className='row__photo' alt='face' src={props.photo}/>
                     </div>
                     <div className='row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container'>
-                        <div className='row__name flex xs-fl-60 sm-fl-70 lg-fl-90 font--big font--bold'>
+                        <div className='row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold'>
                             <span>{props.fullName}</span>
                         </div>
 
@@ -28,16 +29,19 @@ const ParticipantRow = (props) => {
                             <div className='row__item row-score--item-gender'>
                                 <span>{props.gender}</span>
                             </div>
-                            <div className='row__item font--big row-score--item-time'>
+                            <div className='row__item font--normal row-score--item-time'>
                                     <span>{props.time}</span>
                             </div>
-                                <div className='row__item font--big row--bg-blue row-score--item-score'>
+                                <div className='row__item font--normal row--bg-blue row-score--item-score'>
                                     <span>{props.score}</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className={`row__detail ${props.showDetail ? 'row__detail_visible':null}`}>
+                </div>
+                <div className="row__section-2 flex">
+                <div className="flex md-fl-10"></div>
+                <div className={`flex row__detail ${props.showDetail ? 'row__detail_visible':null}`}>
                     <div className='skills'>
                         <div className='skill-set flex'>
                             <span className='flex xs-fl-30 md-fl-10 flex skill-set__skill font--x-small font--bold'>Strength</span>
@@ -123,6 +127,7 @@ const ParticipantRow = (props) => {
                     )
                         })
                     }
+                </div>
                 </div>
             </div>
         </React.Fragment>

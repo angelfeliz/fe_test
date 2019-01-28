@@ -26,11 +26,13 @@ class Header extends React.Component {
                                 { this.state.openMenu ? <FontAwesomeIcon 
                                   icon={['fas','times']}
                                   size='2x'
+                                  data-testid='closeMenu'
                                 />
                             :
                             <FontAwesomeIcon 
                                   icon={['fas','bars']}
                                   size='2x'
+                                  data-testid='openMenu'
                                 />}
                             </div>
                             <ul className={`header__nav  ${this.state.openMenu ? "header__nav--open": "header__nav--close"}`}>

@@ -4,23 +4,28 @@
     display: flex
     flex-direction: column
     height: auto
-    background-color: #ffffff
+    background-color: transparent
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
     margin-top: 4%
     position: relative
-//'https://www.sciencenewsforstudents.org/sites/default/files/scald-image/350_.inline2_beauty_w.png'
+
+.row__section-1
+    background-color: white
+
+
 .position_container
     position: relative
 
 .row__inner-row
     display: flex
     flex-direction: row
-    margin-top: 1.5%
+    
 
 .row-score--item-time
     background-image: url('../../imagenes/black_small_spray.png')
     background-repeat: no-repeat
     background-size: cover
+    background-color: #2459a3
     color: white
 
 .row__item
@@ -39,7 +44,8 @@
 
 .row__name
     position: absolute
-    top: 40px
+    top: 52px
+    width: 100%
 
 .row__inner--sm-hg
     height: 40px
@@ -48,9 +54,11 @@
     display: flex
     flex-direction: row
 
+.row__container__photo
+    height: 85px
 .row__photo
-    width: 87px
-    height: 87px
+    width: 85px
+    height: 85px
 
 .row-score--item-bib, .row-score--item-age
     width: 20%
@@ -68,7 +76,7 @@
 
 .row__detail
     position: relative
-    top: 5px
+    top: 0px
     height: auto
     width: 100%
     border: 1px solid var(--grey-100)
@@ -211,11 +219,11 @@
     flex-direction: row
     margin-left: 4%
 
-
+.row__section-2
+    display: flex
+    flex-direction: row
 
 @media only screen and (min-width: 600px)
-    .row
-        height: 153px
 
     .row__inner--sm-hg
         height: 62px
@@ -229,7 +237,7 @@
         min-height: 25%
 
     .row__detail
-        top: 152.5px
+        top: 0px
 
 
 @media only screen and (min-width: 768px)
@@ -237,17 +245,18 @@
         flex: 0 0 0%
         min-height: 33%
 
-    .row
-        height: 180px
-        max-height: 33%
-
     .row__detail
-        top: 180px
+        top: 0px
 
 @media only screen and (min-width: 992px)
     .row
+       height: auto
+
+    .row__section-1
+        display: flex
         flex-direction: row
-        height: auto
+
+    
 
     .row__name
         position: relative
@@ -260,6 +269,7 @@
     .row--number-position
         flex: 1 1 100%
         height: auto
+        max-width: 7%
     
     .row-score--item-time, .row-score--item-score
         padding: 0 2%
@@ -269,7 +279,7 @@
         height: auto
 
     .row__detail
-        top: 91.64px
+        top: 0px
     
     .challange
         display: flex
@@ -282,11 +292,12 @@
 
 @media only screen and (min-width: 1200px)
     .row--number-position
-        max-width: 8%
+        max-width: 6%
     
     .head__empty-space
         max-width: 45.5%
 
+
     .row__detail
-        top: 91px
+        top: 0
     
