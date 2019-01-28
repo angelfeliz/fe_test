@@ -1,0 +1,48 @@
+
+.header-table__container
+    width: 100%
+    background-color: black
+    color: white
+    display: flex
+    flex-direction: column
+    min-height: 10vh
+    padding-top: 3%
+    justify-content: flex-end
+    background-image: url('../../imagenes/banner_corrugated.png')
+    background-repeat: no-repeat
+    background-size: cover
+    
+
+.header--font-small
+    font-size: .6rem
+    font-weight: bold
+
+.title
+    display: flex
+    flex-direction: row
+    margin-left: 5%
+    margin-bottom: 6%
+
+.header-table
+    display: flex
+    flex-direction: row
+
+.bib, .age
+    width: 14%
+    text-align: center
+
+.gender, .time, .score
+    width: 20%
+    text-align: center
+
+
+@media only screen and (min-width: 992px)
+    .header-table__container
+         flex-direction: row
+         align-items: flex-end
+         height: 100px
+        
+    .title
+        margin-bottom: 0
+
+

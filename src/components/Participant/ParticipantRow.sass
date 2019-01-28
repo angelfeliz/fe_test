@@ -1,0 +1,292 @@
+
+.row
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    height: auto
+    background-color: #ffffff
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    margin-top: 4%
+    position: relative
+//'https://www.sciencenewsforstudents.org/sites/default/files/scald-image/350_.inline2_beauty_w.png'
+.position_container
+    position: relative
+
+.row__inner-row
+    display: flex
+    flex-direction: row
+    margin-top: 1.5%
+
+.row-score--item-time
+    background-image: url('../../imagenes/black_small_spray.png')
+    background-repeat: no-repeat
+    background-size: cover
+    color: white
+
+.row__item
+    margin: 0
+    display: flex
+    justify-content: center
+    align-items: center
+
+.row--number-position
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background-color: #f3f3f3
+    text-align: center
+    height: 30px
+
+.row__name
+    position: absolute
+    top: 40px
+
+.row__inner--sm-hg
+    height: 40px
+
+.row--direction-row
+    display: flex
+    flex-direction: row
+
+.row__photo
+    width: 87px
+    height: 87px
+
+.row-score--item-bib, .row-score--item-age
+    width: 20%
+    text-align: center
+
+.row-score--item-gender, .row-score--item-time, .row-score--item-score
+    width: 25%
+    text-align: center
+
+.row--bg-blue
+    background-color: #2459a3
+
+.row--bg-black
+    background-color: black
+
+.row__detail
+    position: relative
+    top: 5px
+    height: auto
+    width: 100%
+    border: 1px solid var(--grey-100)
+    padding: 2% 3%
+    z-index: 99
+    background-color: var(--grey-100)
+    display: none
+
+.row__detail_visible
+    display: block
+
+.skills
+    display: flex
+    flex-direction: column
+    margin-bottom: 3%
+
+.skill-orange
+    color: var(--orange)
+
+.skill-bg-orange
+    background-color: var(--orange)
+
+.skill-green
+    color: var(--green)
+
+.skill-bg-green
+    background-color: var(--green)
+
+.skill-blue
+    color: var(--blue)
+
+.skill-bg-blue
+    background-color: var(--blue)
+
+.skill-purple
+    color: var(--purple)
+
+.skill-bg-purple
+    background-color: var(--purple)
+
+.skill-set
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-top: 4%
+
+.skill-set__skill
+    text-transform: uppercase
+    color: var(--grey-900)
+
+.skill-set__progress-bar
+    position: relative
+    width: 70%
+    height: 11px
+    border: 1px solid black
+    align-self: center
+    background-color: var(--grey-900)
+
+.skill-set__progress-bar__progress_count
+    position: absolute
+    height: 10px
+    width: 50%
+    top: 0
+
+.challange
+    margin-bottom: 8%
+
+.event__name
+    color: var(--blue)
+    margin-bottom: 5%
+
+.challange__name
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin-bottom: 4%
+
+.challange__detail
+    display: flex
+    flex-direction: row
+.circle
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 24px
+    width: 25px
+    border: 1px solid black
+    border-radius: 50%
+    text-align: center
+    margin-right: 3%
+
+.circle span
+    display: inline-block
+    vertical-align: middle
+    flex: 0 0 0%
+
+.circles_skills
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+.circle--bg-grey
+    background-color: var(--grey-900)
+    border-color: var(--grey-900)
+    color: white
+
+.circle--bg-black
+    background-color: black
+    color: white
+
+.charts
+    width: 100px
+    position: relative
+    margin-left: 8%
+
+.challange__time, .challange__socore
+    position: relative
+    text-align: center
+
+.challange__socore
+    color: var(--blue)
+
+.challange__time, .charts
+    border-right-width: 2px
+    border-right-style: dotted
+    border-right-color: var(--grey-900)
+    padding-right: 8px
+
+.charts--orange
+    width: 100%
+    border: 1px solid var(--orange)
+    margin-bottom: 6%
+
+.charts--grees
+    width: 100%
+    border: 1px solid var(--green)
+
+.challange___point
+    display: flex
+    flex-direction: row
+    margin-left: 4%
+
+
+
+@media only screen and (min-width: 600px)
+    .row
+        height: 153px
+
+    .row__inner--sm-hg
+        height: 62px
+
+    .row__name
+        position: absolute
+        top: 60px
+   
+    .row--number-position
+        flex: 0 0 0%
+        min-height: 25%
+
+    .row__detail
+        top: 152.5px
+
+
+@media only screen and (min-width: 768px)
+    .row--number-position
+        flex: 0 0 0%
+        min-height: 33%
+
+    .row
+        height: 180px
+        max-height: 33%
+
+    .row__detail
+        top: 180px
+
+@media only screen and (min-width: 992px)
+    .row
+        flex-direction: row
+        height: auto
+
+    .row__name
+        position: relative
+        top: 0
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: flex-start
+    
+    .row--number-position
+        flex: 1 1 100%
+        height: auto
+    
+    .row-score--item-time, .row-score--item-score
+        padding: 0 2%
+
+    .row__inner-row
+        margin: 0
+        height: auto
+
+    .row__detail
+        top: 91.64px
+    
+    .challange
+        display: flex
+        flex-direction: row
+        margin-top: 0
+        margin-bottom: .4%
+
+    .skills
+        width: 83%
+
+@media only screen and (min-width: 1200px)
+    .row--number-position
+        max-width: 8%
+    
+    .head__empty-space
+        max-width: 45.5%
+
+    .row__detail
+        top: 91px
+    
