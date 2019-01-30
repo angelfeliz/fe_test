@@ -7,7 +7,7 @@ import {render, fireEvent} from 'react-testing-library';
 import Header from './Header';
 
 
-test('render header menu', () => {
+test('open header menu', () => {
     const {container, debug, getByTestId} = render(<Header/>);
     //To check if at least one item is present in the header menu
     let item = getByTestId(/item/i);

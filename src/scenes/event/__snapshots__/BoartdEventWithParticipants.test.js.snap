@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of Board 1`] = `
+<div>
+  <div
+    class="header-table__container"
+  >
+    <div
+      class="header-table__title font--big flex md-fl-90"
+    >
+      post apocalyptic highway
+    </div>
+    <div
+      class="header-table flex"
+    >
+      <div
+        class="flex xs-fl-30 sm-fl-20 md-fl-90"
+      />
+      <div
+        class="header--font-small bib"
+      >
+        BIB
+      </div>
+      <div
+        class="header--font-small age"
+      >
+        AGE
+      </div>
+      <div
+        class="header--font-small gender"
+      >
+        GENDER
+      </div>
+      <div
+        class="header--font-small time"
+      >
+        TIME
+      </div>
+      <div
+        class="header--font-small score"
+      >
+        SCORE
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          1
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face1.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Angel Rodriguez
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          2
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face2.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Patrick Johnson
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          3
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face3.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Michael Monks
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          4
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face4.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Hakim Callender
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          5
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face5.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Everton Lawrence
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          6
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face6.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Patricia Sothers
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="row__section-1"
+      data-testid="rowitem"
+    >
+      <div
+        class="row--number-position flex xs-fl-10 font--small"
+      >
+        <span>
+          7
+        </span>
+      </div>
+      <div
+        class="row__inner-row flex"
+      >
+        <div
+          class="flex xs-fl-30 sm-fl-20 md-fl-20 lg-fl-10 row__container__photo"
+        >
+          <img
+            alt="face"
+            class="row__photo"
+            src="face7.png"
+          />
+        </div>
+        <div
+          class="row__inner-row flex xs-fl-70 sm-fl-90 md-fl-90 position_container"
+        >
+          <div
+            class="row__name flex  sm-fl-70 md-fl-40 lg-fl-90 font--normal font--bold"
+          >
+            <span>
+              Pat Calhoun
+            </span>
+          </div>
+          <div
+            class="row__inner-row  row--flex-end flex row__inner--sm-hg"
+          >
+            <div
+              class="row__item font--small row-score--item-bib"
+            >
+              <span>
+                1085
+              </span>
+            </div>
+            <div
+              class="row__item font--small row-score--item-age"
+            >
+              <span>
+                27
+              </span>
+            </div>
+            <div
+              class="row__item row-score--item-gender"
+            >
+              <span>
+                M
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row-score--item-time"
+            >
+              <span>
+                17:42
+              </span>
+            </div>
+            <div
+              class="row__item font--normal row--bg-blue row-score--item-score"
+            >
+              <span>
+                41
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row__section-2"
+    />
+  </div>
+</div>
+`;

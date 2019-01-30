@@ -1,5 +1,10 @@
-import face1 from './imagenes/face1.png'
-import face2 from './imagenes/face2.png'
+import face1 from './imagenes/face1.png';
+import face2 from './imagenes/face2.png';
+import face3 from './imagenes/face3.png';
+import face4 from './imagenes/face4.png';
+import face5 from './imagenes/face5.png';
+import face6 from './imagenes/face6.png';
+import face7 from './imagenes/face7.png';
 
 export const data =  {
     eventName: 'post apocalyptic highway',
@@ -13,6 +18,10 @@ export const data =  {
             gender: 'M',
             time: '17:42',
             score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
             events: [
                 {
                     challenge: 'post apocalyptic highway',
@@ -58,6 +67,34 @@ export const data =  {
                           skillF: 0,
                           time: '17:90',
                           score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
                         }
                     ]
                 },
@@ -65,11 +102,102 @@ export const data =  {
                     challenge: 'Costa Ricas Canves',
                     activities: [
                         {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
+        {
+            position: 2,
+            fullName: 'Patrick Johnson',
+            photo: face2,
+            bib: 1085,
+            age: 27,
+            gender: 'M',
+            time: '17:42',
+            score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
                           order: 1,
                           name: 'Hill Climb',
                           P: true,
                           R: true,
-                          W: false,
+                          W: true,
                           F: true,
                           skillP: 20,
                           skillR: 40,
@@ -82,8 +210,160 @@ export const data =  {
                           order: 2,
                           name: 'Run For The Hills',
                           P: true,
-                          R: false,
+                          R: true,
                           W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
+        {
+            position: 3,
+            fullName: 'Michael Monks',
+            photo: face3,
+            bib: 1085,
+            age: 27,
+            gender: 'M',
+            time: '17:42',
+            score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
+                          order: 1,
+                          name: 'Hill Climb',
+                          P: true,
+                          R: true,
+                          W: true,
                           F: true,
                           skillP: 20,
                           skillR: 40,
@@ -91,21 +371,805 @@ export const data =  {
                           skillF: 0,
                           time: '17:90',
                           score: 8
+                        },
+                        {
+                          order: 2,
+                          name: 'Run For The Hills',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
                         }
                     ]
                 }
-            ]
+            ],
         },
         {
-            position: 2,
-            fullName: 'Patrick Johnson',
-            photo: face2,
+            position: 4,
+            fullName: 'Hakim Callender',
+            photo: face4,
             bib: 1085,
             age: 27,
             gender: 'M',
             time: '17:42',
             score: 41,
-            events:[]
-        }
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
+                          order: 1,
+                          name: 'Hill Climb',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 2,
+                          name: 'Run For The Hills',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
+        {
+            position: 5,
+            fullName: 'Everton Lawrence',
+            photo: face5,
+            bib: 1085,
+            age: 27,
+            gender: 'M',
+            time: '17:42',
+            score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
+                          order: 1,
+                          name: 'Hill Climb',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 2,
+                          name: 'Run For The Hills',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
+        {
+            position: 6,
+            fullName: 'Patricia Sothers',
+            photo: face6,
+            bib: 1085,
+            age: 27,
+            gender: 'M',
+            time: '17:42',
+            score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
+                          order: 1,
+                          name: 'Hill Climb',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 2,
+                          name: 'Run For The Hills',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
+        {
+            position: 7,
+            fullName: 'Pat Calhoun',
+            photo: face7,
+            bib: 1085,
+            age: 27,
+            gender: 'M',
+            time: '17:42',
+            score: 41,
+            strength: 9,
+            endurance: 13,
+            dexterity: 40,
+            decisionMaking: 90,
+            events: [
+                {
+                    challenge: 'post apocalyptic highway',
+                    activities: [
+                        {
+                          order: 1,
+                          name: 'Hill Climb',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 2,
+                          name: 'Run For The Hills',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                          order: 3,
+                          name: 'Coded Doors',
+                          P: true,
+                          R: false,
+                          W: true,
+                          F: false,
+                          skillP: 20,
+                          skillR: 40,
+                          skillW: 100,
+                          skillF: 0,
+                          time: '17:90',
+                          score: 8
+                        },
+                        {
+                            order: 4,
+                            name: 'Spear Throw',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 30,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 5,
+                            name: 'Sand Bagging',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 100,
+                            skillR: 60,
+                            skillW: 70,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                },
+                {
+                    challenge: 'Costa Ricas Canves',
+                    activities: [
+                        {
+                          order: 6,
+                          name: 'Creasse Crossing',
+                          P: true,
+                          R: true,
+                          W: true,
+                          F: true,
+                          skillP: 0,
+                          skillR: 0,
+                          skillW: 70,
+                          skillF: 30,
+                          time: '17:90',
+                          score: 5
+                        },
+                        {
+                          order: 7,
+                          name: 'The Canopy',
+                          P: true,
+                          R: true,
+                          W: false,
+                          F: false,
+                          skillP: 100,
+                          skillR: 50,
+                          skillW: 55,
+                          skillF: 20,
+                          time: '17:90',
+                          score: 6
+                        },
+                        {
+                            order: 8,
+                            name: 'Dirty Amor',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: false,
+                            skillP: 100,
+                            skillR: 0,
+                            skillW: 70,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 3
+                        },
+                        {
+                            order: 9,
+                            name: 'Navigational Challenge',
+                            P: false,
+                            R: true,
+                            W: false,
+                            F: true,
+                            skillP: 0,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 20,
+                            time: '17:90',
+                            score: 8
+                        },
+                        {
+                            order: 10,
+                            name: 'Dead Weight',
+                            P: true,
+                            R: false,
+                            W: true,
+                            F: true,
+                            skillP: 90,
+                            skillR: 60,
+                            skillW: 65,
+                            skillF: 0,
+                            time: '17:90',
+                            score: 2
+                        }
+                    ]
+                }
+            ],
+        },
     ]
-}
+};

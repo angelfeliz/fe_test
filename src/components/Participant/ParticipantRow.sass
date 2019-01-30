@@ -13,6 +13,19 @@
     background-color: white
 
 
+.detail
+    display: flex
+    flex-direction: column
+    position: relative
+
+.square
+    height: 50px
+    width: 100%
+    position: relative
+    background-color: red
+    top: 0
+    
+
 .position_container
     position: relative
 
@@ -83,7 +96,7 @@
     padding: 2% 3%
     z-index: 99
     background-color: var(--grey-100)
-    display: none
+
 
 .row__detail_visible
     display: block
@@ -206,22 +219,29 @@
     padding-right: 8px
 
 .charts--orange
-    width: 100%
+
     border: 1px solid var(--orange)
     margin-bottom: 6%
 
 .charts--grees
-    width: 100%
     border: 1px solid var(--green)
+    margin-bottom: 6%
+
+.charts--blue
+    border: 1px solid var(--blue)
+    margin-bottom: 6%
+
+.charts--purple
+    border: 1px solid var(--purple)
 
 .challange___point
     display: flex
     flex-direction: row
     margin-left: 4%
 
-.row__section-2
-    display: flex
-    flex-direction: row
+
+
+
 
 @media only screen and (min-width: 600px)
 
@@ -281,6 +301,9 @@
     .row__detail
         top: 0px
     
+    .row__section-2
+        margin-left: 150px
+
     .challange
         display: flex
         flex-direction: row
@@ -300,4 +323,7 @@
 
     .row__detail
         top: 0
+
+    .row__section-2
+        margin-left: 13.33%
     
